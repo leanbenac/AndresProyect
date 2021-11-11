@@ -1,2 +1,2 @@
 # AndresProyect
- Proyecto Frelance - Comunicación y Relaciones Públicas
+ Proyecto Freelance - Comunicación y Relaciones Públicas
