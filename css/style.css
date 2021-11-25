@@ -16,6 +16,10 @@ html {
 .boldFont {
   font-weight: bold; }
 
+.tituloSeccion {
+  text-align: left;
+  margin-left: 20px; }
+
 /* HEADER */
 header nav {
   background-color: midnightblue;
@@ -52,6 +56,8 @@ footer {
     font-weight: bold; }
   footer .list-unstyled li:hover {
     transform: scale(1.2); }
+  footer h5 {
+    font-weight: bold; }
 
 #Footer {
   padding-top: 3rem; }
