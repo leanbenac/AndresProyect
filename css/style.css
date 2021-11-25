@@ -1,78 +1,105 @@
 /* GENERALES */
+html {
+  width: 100%;
+  height: 100%; }
 
-html{
-    width: 100%;
-    height: 100%;
-}
-.marginSection{
-    margin-top: 100px;
-    margin-bottom: 40px;
-}
-.paddingLeft{
-    padding-left: 50px;
-}
-.marginAuto{
-    margin: auto;
-}
-.boldFont{
-    font-weight: bold;
-}
+.marginSection {
+  margin-top: 100px;
+  margin-bottom: 40px; }
+
+.paddingLeft {
+  padding-left: 50px; }
+
+.marginAutoLR {
+  margin: 0px auto; }
+
+.boldFont {
+  font-weight: bold; }
+
 /* HEADER */
+header nav {
+  background-color: midnightblue; }
 
-header nav{
-    background-color: midnightblue;
-    color: white;
-}
-.nav-link{
-    color: white;
-    text-decoration: none;
-}
-.nav-link:hover{
-    font-weight: bold;
-}
-#navbarNavDropdown{
-    justify-content: center;
-}
+.nav-link {
+  color: white !important;
+  text-decoration: none; }
+
+.active {
+  font-weight: bold; }
+
+.nav-item:hover {
+  font-weight: bold; }
+
+.navbar-toggler {
+  border-color: white !important; }
+
+#navbarNavDropdown {
+  justify-content: center; }
 
 /* FOOTER*/
+footer {
+  background-color: midnightblue;
+  color: white; }
 
-footer{
-    background-color: midnightblue;
-    color: white;
-}
-#Footer{
-    padding-top: 3rem;
-}
-.imagenesRRSS{
-    width: 30px;
-}
-.copyRight{
-    padding-top: 1.5rem;
-}
+#Footer {
+  padding-top: 3rem; }
+
+.imagenesRRSS {
+  width: 30px; }
+
+.copyRight {
+  padding-top: 1.5rem; }
 
 /************* INICIO ***************/
 /* CARDS */
-.cardMargin{
-    margin: 5% 10% 3% 10%;
-}
-.card{
-    margin: auto;
-}
-.personaldMargin{
-    margin: auto;
-}
-.card-body a{
-    font-size: 15px;
-}
-.card-body .autor{
-    font-size: 15px;
-}
+.cardMargin {
+  margin: 5% 10% 3% 10%; }
+
+.card {
+  margin: auto; }
+
+.personaldMargin {
+  margin: auto; }
+
+.card-body a {
+  font-size: 15px; }
+  .card-body a .autor {
+    font-size: 15px; }
 
 /************* SOBRE ANDY ***************/
+.imagenMenor {
+  margin-top: auto;
+  padding-right: 10px; }
 
-.imagenMenor{
-    margin-top:auto;
-    padding-left: 20px;
-}
+.imgSobreMi {
+  margin: 10px 0px; }
 
+.parrafosSobreMi p {
+  font-size: 18px; }
 
+/************* CONTACTO ***************/
+#containerContacto {
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 30px;
+  margin: auto; }
+  #containerContacto label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold; }
+  #containerContacto input {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black; }
+  #containerContacto textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px; }
+  #containerContacto .enviarForm {
+    padding: 10px;
+    margin-left: 80%;
+    font-weight: bold; }
+
+#fs-frm-inputs {
+  display: flex;
+  flex-direction: column; }

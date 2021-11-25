@@ -1,0 +1,32 @@
+/************* CONTACTO ***************/
+
+#containerContacto{
+    border-radius: 30px;
+    border: 2px solid lightgray;
+    padding: 30px;
+    margin: auto;
+    label{
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    input{
+        padding: 5px;
+        border-radius: 8px;
+        border: 1px solid black;
+    }
+    textarea{
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .enviarForm{
+        padding: 10px;
+        margin-left: 80%;
+        font-weight: bold;
+    }
+}
+#fs-frm-inputs{
+    display:flex;
+    flex-direction: column;
+}

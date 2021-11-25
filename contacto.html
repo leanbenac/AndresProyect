@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Proyect</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="./images/image.png" width="60x60" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sobreMi.html">Sobre Andy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid marginSection">
+        <div id="containerContacto" class="col-xxl-4">
+            <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/xyylrjdo"
+                method="post">
+                <fieldset id="fs-frm-inputs">
+                    <h2 className="centrar">Contacto</h2>
+                    <label htmlFor="full-name">Nombre y Apellido</label>
+                    <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required />
+                    <label htmlFor="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="example@email.com" require />
+                    <label htmlFor="telephone">Teléfono (Opcional)</label>
+                    <input type="number" name="telephone" id="telephone" placeholder="11 1234-5678" />
+                    <label htmlFor="message">Déjanos tu Mensaje</label>
+                    <textarea rows="5" name="message" id="message"
+                        placeholder="Escriba lo que desee consultar o solicitar" required></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+                </fieldset>
+                <input class="enviarForm" type="submit" value="Enviar" />
+            </form>
+        </div>
+    </section>
+    <footer id="Footer" class="container-fluid justify-content-center">
+        <div class="row marginAuto">
+            <div class="col-xxl-3 paddingLeft">
+                <h5>Servicios</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Asesoramiento Personal</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Capacitación para Empresas</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Entrevistas a
+                            Profesionales</a></li>
+                </ul>
+            </div>
+            <div class="col-xxl-3 paddingLeft">
+                <h5>Blog</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Noticias de Actualidad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Charlas a Empresas</a></li>
+                </ul>
+            </div>
+            <div class="col-xxl-3 paddingLeft">
+                <h5>Sobre Andy</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Mi experiencia laboral</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Mis Estudios</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Mis objetivos profesionales</a></li>
+                </ul>
+            </div>
+            <div class="col-xxl-3 paddingLeft">
+                <h5>Conectemos</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">Seguime en mis redes sociales</li>
+                    <ul class="list-unstyled d-flex">
+                        <li><a class="link-dark" href="#"><img class="imagenesRRSS" src="./images/twitter_logo.png"
+                                    alt=""></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><img class="imagenesRRSS"
+                                    src="./images/instagram_logo.png" alt=""></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><img class="imagenesRRSS"
+                                    src="./images/facebook_logo.png" alt=""></a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center copyRight my-4 border-top">
+            <p>&copy; 2021 Andy Rojas. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+/* HEADER */
+
+header nav{
+    background-color: midnightblue;
+}
+.nav-link{
+    color: white!important;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+}
+.nav-item:hover{
+    font-weight: bold;
+}   
+.navbar-toggler{
+    border-color: white!important;
+}
+#navbarNavDropdown{
+    justify-content: center;
+}
