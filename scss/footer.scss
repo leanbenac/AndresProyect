@@ -3,13 +3,26 @@
 footer{
     background-color: midnightblue;
     color: white;
+    box-shadow: 0px 0px 5px 1px black;
+    .nav-link{
+        color: white!important;
+        text-decoration: none;
+    }
+    .nav-item:hover{
+        font-weight: bold;
+    }
+    .list-unstyled li:hover{
+        transform: scale(1.2);
+    }
 }
+
 #Footer{
     padding-top: 3rem;
 }
 .imagenesRRSS{
     width: 30px;
 }
+
 .copyRight{
     padding-top: 1.5rem;
 }

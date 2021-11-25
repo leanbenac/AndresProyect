@@ -18,16 +18,20 @@ html {
 
 /* HEADER */
 header nav {
-  background-color: midnightblue; }
+  background-color: midnightblue;
+  box-shadow: 0px 0px 5px 1px black; }
 
-.nav-link {
+header .nav-link {
   color: white !important;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 25px; }
+
+header .nav-item {
+  padding: 0px 20px; }
+  header .nav-item :hover {
+    font-weight: bold; }
 
 .active {
-  font-weight: bold; }
-
-.nav-item:hover {
   font-weight: bold; }
 
 .navbar-toggler {
@@ -39,7 +43,15 @@ header nav {
 /* FOOTER*/
 footer {
   background-color: midnightblue;
-  color: white; }
+  color: white;
+  box-shadow: 0px 0px 5px 1px black; }
+  footer .nav-link {
+    color: white !important;
+    text-decoration: none; }
+  footer .nav-item:hover {
+    font-weight: bold; }
+  footer .list-unstyled li:hover {
+    transform: scale(1.2); }
 
 #Footer {
   padding-top: 3rem; }
@@ -76,6 +88,27 @@ footer {
 
 .parrafosSobreMi p {
   font-size: 18px; }
+
+.parrafosSobreMi a {
+  font-size: 18px; }
+
+/************* BLOG ***************/
+.alignRightFecha {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 0px; }
+
+/************* SERVICIOS ***************/
+.tituloServicios {
+  margin: 15px; }
+
+.imagenServicios {
+  width: 80%;
+  margin: auto; }
+
+.btnServicios {
+  margin-bottom: 15px;
+  text-align: right; }
 
 /************* CONTACTO ***************/
 #containerContacto {
