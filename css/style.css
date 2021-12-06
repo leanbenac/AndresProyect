@@ -22,7 +22,7 @@ html {
 
 /* HEADER */
 header nav {
-  background-color: midnightblue;
+  background-color: #00205B;
   box-shadow: 0px 0px 5px 1px black; }
 
 header .nav-link {
@@ -46,7 +46,7 @@ header .nav-item {
 
 /* FOOTER*/
 footer {
-  background-color: midnightblue;
+  background-color: #00205B;
   color: white;
   box-shadow: 0px 0px 5px 1px black; }
   footer .nav-link {
@@ -84,6 +84,25 @@ footer {
   .card-body a .autor {
     font-size: 15px; }
 
+.card-title {
+  color: #006969;
+  padding-left: 50px; }
+
+.card-text {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.card-notes {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+h3 {
+  font-size: 16px; }
+
+.imgAndy {
+  max-width: 223px;
+  max-height: 325.55px; }
+
 /************* SOBRE ANDY ***************/
 .imagenMenor {
   margin-top: auto;
@@ -103,6 +122,9 @@ footer {
   text-align: right;
   margin-right: 10px;
   margin-bottom: 0px; }
+
+.blogImg {
+  width: 900px; }
 
 /************* SERVICIOS ***************/
 .tituloServicios {
