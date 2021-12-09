@@ -1,11 +1,22 @@
 /************* BLOG ***************/
-
+#blog div{
+    justify-content: center;
+}
 .alignRightFecha{
     text-align: right;
     margin-right: 10px;
     margin-bottom: 0px;
 }
-
 .blogImg{
-    width: 900px;
+    text-align: center;
+    img{
+        margin-top: 10px;
+        width: 60%;
+    }
+}
+.blogCard{
+    text-align: center;
+}
+.botonNotas{
+    text-align: end;
 }

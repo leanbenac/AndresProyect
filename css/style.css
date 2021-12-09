@@ -20,6 +20,22 @@ html {
   text-align: left;
   margin-left: 20px; }
 
+.colorPrimario {
+  color: midnightblue; }
+
+.colorSecundario {
+  color: #006969; }
+
+.btn {
+  background-color: #006969;
+  color: white;
+  box-shadow: 0px 0px 5px 1px black; }
+
+.alignLeft {
+  text-align: left;
+  margin-right: 10px;
+  margin-bottom: 0px; }
+
 /* HEADER */
 header nav {
   background-color: #00205B;
@@ -71,7 +87,9 @@ footer {
 /************* INICIO ***************/
 /* CARDS */
 .cardMargin {
-  margin: 5% 10% 3% 10%; }
+  width: 90%;
+  margin: 5% 10% 3% 10%;
+  padding: 10px; }
 
 .card {
   margin: auto; }
@@ -96,47 +114,83 @@ footer {
   padding-left: 5px;
   padding-right: 5px; }
 
-h3 {
-  font-size: 16px; }
-
 .imgAndy {
   max-width: 223px;
   max-height: 325.55px; }
 
+.filaUltimas h1 {
+  padding-left: 40px; }
+
 /************* SOBRE ANDY ***************/
+#tituloSobreMi {
+  margin: 10px; }
+
 .imagenMenor {
   margin-top: auto;
-  padding-right: 10px; }
+  padding-right: 10px;
+  align-items: center; }
 
 .imgSobreMi {
   margin: 10px 0px; }
 
 .parrafosSobreMi p {
-  font-size: 18px; }
+  font-size: 16.7px; }
 
 .parrafosSobreMi a {
-  font-size: 18px; }
+  font-size: 16.7px; }
+
+#parrafosSobreMi h4 {
+  color: midnightblue; }
 
 /************* BLOG ***************/
+#blog div {
+  justify-content: center; }
+
 .alignRightFecha {
   text-align: right;
   margin-right: 10px;
   margin-bottom: 0px; }
 
 .blogImg {
-  width: 900px; }
+  text-align: center; }
+  .blogImg img {
+    margin-top: 10px;
+    width: 60%; }
+
+.blogCard {
+  text-align: center; }
+
+.botonNotas {
+  text-align: end; }
 
 /************* SERVICIOS ***************/
 .tituloServicios {
-  margin: 15px; }
+  margin: 15px 15px 25px 15px; }
 
 .imagenServicios {
-  width: 80%;
-  margin: auto; }
+  width: 90%;
+  height: auto;
+  margin: 15px; }
 
 .btnServicios {
   margin-bottom: 15px;
-  text-align: right; }
+  text-align: center; }
+
+#charlas .row {
+  justify-content: space-around; }
+
+#charlas h2 {
+  margin-left: 20px; }
+
+#charlas h4 {
+  text-align: center; }
+
+#charlas .text-muted {
+  font-size: 13px; }
+
+#charlas .btnServicios {
+  text-align: right;
+  margin-right: 10px; }
 
 /************* CONTACTO ***************/
 #containerContacto {

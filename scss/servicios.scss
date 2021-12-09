@@ -1,13 +1,32 @@
 /************* SERVICIOS ***************/
 
 .tituloServicios{
-    margin: 15px;
+    margin: 15px 15px 25px 15px;
 }
 .imagenServicios{
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    height: auto;
+    margin: 15px;
 }
 .btnServicios{
     margin-bottom: 15px;
-    text-align: right;
+    text-align: center;
+}
+#charlas{
+    .row{
+        justify-content: space-around;
+    }
+    h2{
+        margin-left: 20px;
+    }
+    h4{
+        text-align: center;
+    }
+    .text-muted{
+        font-size: 13px;
+    }
+    .btnServicios{
+        text-align: right;
+        margin-right: 10px;
+    }
 }

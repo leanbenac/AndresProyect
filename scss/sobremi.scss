@@ -1,17 +1,26 @@
 /************* SOBRE ANDY ***************/
 
+#tituloSobreMi{
+    margin: 10px;
+}
 .imagenMenor{
-    margin-top:auto;
+    margin-top: auto;
     padding-right: 10px;
+    align-items: center;
 }
 .imgSobreMi{
     margin: 10px 0px;
 }
 .parrafosSobreMi{
     p{
-        font-size: 18px;
+        font-size: 16.7px;
     }
     a{
-        font-size: 18px;
+        font-size: 16.7px;
+    }
+}
+#parrafosSobreMi{
+    h4{
+        color: midnightblue;
     }
 }

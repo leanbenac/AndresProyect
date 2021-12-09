@@ -1,7 +1,9 @@
 /************* INICIO ***************/
 /* CARDS */
 .cardMargin{
+    width: 90%;
     margin: 5% 10% 3% 10%;
+    padding: 10px;
 }
 .card{
     margin: auto;
@@ -27,11 +29,10 @@
     padding-left: 5px;
     padding-right: 5px;
 }
-
-h3{
-    font-size: 16px; 
-}
 .imgAndy{
 max-width: 223px;
 max-height: 325.55px;
+}
+.filaUltimas h1{
+    padding-left: 40px;
 }
