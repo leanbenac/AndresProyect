@@ -48,8 +48,6 @@ header .nav-link {
 
 header .nav-item {
   padding: 0px 20px; }
-  header .nav-item :hover {
-    font-weight: bold; }
 
 .active {
   font-weight: bold; }
@@ -84,11 +82,17 @@ footer {
 .copyRight {
   padding-top: 1.5rem; }
 
+.icon {
+  font-size: 1.8rem; }
+
+.icon:hover {
+  transition: transform 0.7s; }
+
 /************* INICIO ***************/
 /* CARDS */
 .cardMargin {
-  width: 90%;
-  margin: 5% 10% 3% 10%;
+  width: 85%;
+  margin: 7% 10% 3% 5%;
   padding: 10px; }
 
 .card {
@@ -115,11 +119,17 @@ footer {
   padding-right: 5px; }
 
 .imgAndy {
+  width: 100%;
   max-width: 223px;
-  max-height: 325.55px; }
+  max-height: 325.55px;
+  border-radius: 40%;
+  margin-top: 15px; }
 
 .filaUltimas h1 {
   padding-left: 40px; }
+
+.logo {
+  margin-left: 25px; }
 
 /************* SOBRE ANDY ***************/
 #tituloSobreMi {
