@@ -2,7 +2,7 @@
 /* CARDS */
 .cardMargin{
     width: 85%;
-    margin: 7% 10% 3% 5%;
+    margin: 5% 3% 3% 5%;
     padding: 10px;
 }
 .card{
@@ -24,6 +24,7 @@
 .card-text{
     padding-left: 50px;
     padding-right: 50px;
+    text-align: justify;
 }
 .card-notes{
     padding-left: 5px;
@@ -42,7 +43,17 @@ margin-top: 15px;
 .logo{
     margin-left: 25px;
 }
+.btnTexto{
+    text-align: right;
+    margin-right: 55px;
+    margin-top: 25px;
+}
 
-// #verMas{
-//     display: none;
+// @media only screen and (max-width: 480px){
+//     .card-text{
+//         padding-left: 1px;
+//         padding-right: 1px;
+//         text-align: justify;
+//     }
 // }
+

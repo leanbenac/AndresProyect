@@ -83,6 +83,7 @@ footer {
   padding-top: 1.5rem; }
 
 .icon {
+  color: white;
   font-size: 1.8rem; }
 
 .icon:hover {
@@ -92,7 +93,7 @@ footer {
 /* CARDS */
 .cardMargin {
   width: 85%;
-  margin: 7% 10% 3% 5%;
+  margin: 5% 3% 3% 5%;
   padding: 10px; }
 
 .card {
@@ -112,7 +113,8 @@ footer {
 
 .card-text {
   padding-left: 50px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  text-align: justify; }
 
 .card-notes {
   padding-left: 5px;
@@ -130,6 +132,11 @@ footer {
 
 .logo {
   margin-left: 25px; }
+
+.btnTexto {
+  text-align: right;
+  margin-right: 55px;
+  margin-top: 25px; }
 
 /************* SOBRE ANDY ***************/
 #tituloSobreMi {
