@@ -7,6 +7,10 @@ html {
   margin-top: 100px;
   margin-bottom: 40px; }
 
+.marginSectionMenor {
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
 .paddingLeft {
   padding-left: 50px; }
 
