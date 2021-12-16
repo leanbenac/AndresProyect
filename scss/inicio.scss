@@ -20,6 +20,7 @@
 .card-title{
     color: #006969;
     padding-left: 50px;
+    font-size: 2rem;
 }
 .card-text{
     padding-left: 50px;
@@ -63,6 +64,7 @@
 @media only screen and (max-width: 480px){
     .card-title{
         padding: 0;
+        font-size: 1.2rem;
     }
     .sinPadding{
         padding: 0;
