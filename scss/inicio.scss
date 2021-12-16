@@ -32,10 +32,10 @@
 }
 .imgAndy{
     width: 100%;
-max-width: 223px;
-max-height: 325.55px;
-border-radius: 40%;
-margin-top: 15px;
+    max-width: 223px;
+    max-height: 325.55px;
+    border-radius: 40%;
+    margin-top: 15px;
 }
 .filaUltimas h1{
     padding-left: 40px;
@@ -48,12 +48,112 @@ margin-top: 15px;
     margin-right: 55px;
     margin-top: 25px;
 }
+.cardNotes{
+    font-size: 15px;
+}
+#notasCharlas {
+    h3{
+        margin-left: 10px;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
 
-// @media only screen and (max-width: 480px){
-//     .card-text{
-//         padding-left: 1px;
-//         padding-right: 1px;
-//         text-align: justify;
-//     }
-// }
+@media only screen and (max-width: 480px){
+    .card-title{
+        padding: 0;
+    }
+    .sinPadding{
+        padding: 0;
+    }
+    .cardMargin{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        justify-content: center;
+    }
+     .card-text{
+       padding-left: 1px;
+       padding-right: 1px;
+       text-align: justify;
+   }
+   .btnTexto{
+       margin-right: 0;
+   }
+   .marginSection{
+       margin-top: 90px;
+   }
+   .centrarImg{
+       text-align: center;
+   }
+   .marginTopMobile{
+       margin-top: 40px;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .card-title{
+        padding: 0;
+    }
+    .cardMargin{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        justify-content: center;
+    }
+     .card-text{
+       padding-left: 1px;
+       padding-right: 1px;
+       text-align: justify;
+       margin:0;
+   }
+   .btnTexto{
+       margin: 0;
+   }
+   .marginSection{
+       margin-top: 90px;
+   }
+   .centrarImg{
+       text-align: center;
+   }
+   .marginTopMobile{
+       margin-top: 0px;
+   }
+   .marginTopTablet{
+         margin-top: 20px;
+   }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .card-title{
+        padding: 0;
+    }
+    .cardMargin{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        justify-content: center;
+    }
+     .card-text{
+       padding-left: 1px;
+       padding-right: 1px;
+       text-align: justify;
+       margin:0;
+   }
+   .btnTexto{
+        margin-top: 25px;
+        margin-right: 0px;
+   }
+   .marginSection{
+       margin-top: 90px;
+   }
+   .centrarImg{
+       text-align: center;
+   }
+   .marginTopMobile{
+       margin-top: 0px;
+   }
+   .marginTopTablet{
+         margin-top: 20px;
+   }
+}
 

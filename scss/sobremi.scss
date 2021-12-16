@@ -2,16 +2,16 @@
 
 #tituloSobreMi{
     margin: 10px;
+    text-align: left;
 }
 .imagenMenor{
-    margin-top: auto;
-    padding-right: 10px;
-    align-items: center;
+    margin: auto;
 }
 .imgSobreMi{
-    margin: 5px 0px;
+    margin: 5px;
 }
 .parrafosSobreMi{
+    padding: 0 0 0 5%;
     p{
         font-size: 16.7px;
     }
@@ -24,7 +24,31 @@
         color: midnightblue;
     }
 }
-
 h3{
     font-size: 1.5rem;
+}
+.contentCard{
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px){
+    #parrafosSobreMi{
+        margin:0;
+    }
+    .parrafosSobreMi{
+        padding:0;
+    }
+    .imgSobreMi{
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1439px){
+    #parrafosSobreMi{
+        margin:0;
+    }
+    .parrafosSobreMi{
+        padding:0;
+    }
 }

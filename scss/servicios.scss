@@ -21,6 +21,7 @@
     }
     h4{
         text-align: center;
+        font-size: 18px;
     }
     .text-muted{
         font-size: 13px;
@@ -28,5 +29,25 @@
     .btnServicios{
         text-align: right;
         margin-right: 10px;
+    }
+}
+.columnaLista ul{
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 1439px){
+    .columnaLista ul{
+        padding-left: 25px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .columnaLista ul{
+        padding-left: 25px;
+    }
+    .marginTop{
+        margin-top: 20px;
+    }
+    #charlas{
+        margin:0;
     }
 }

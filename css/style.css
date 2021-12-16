@@ -46,11 +46,15 @@ header .nav-link {
   text-decoration: none;
   font-size: 25px; }
 
+header .nav-link:hover {
+  color: gray !important; }
+
 header .nav-item {
   padding: 0px 20px; }
 
 .active {
-  font-weight: bold; }
+  font-weight: bold;
+  color: lightgray !important; }
 
 .navbar-toggler {
   border-color: white !important; }
@@ -138,29 +142,129 @@ footer {
   margin-right: 55px;
   margin-top: 25px; }
 
+.cardNotes {
+  font-size: 15px; }
+
+#notasCharlas h3 {
+  margin-left: 10px; }
+
+#notasCharlas h4 {
+  font-size: 18px; }
+
+@media only screen and (max-width: 480px) {
+  .card-title {
+    padding: 0; }
+  .sinPadding {
+    padding: 0; }
+  .cardMargin {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    justify-content: center; }
+  .card-text {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: justify; }
+  .btnTexto {
+    margin-right: 0; }
+  .marginSection {
+    margin-top: 90px; }
+  .centrarImg {
+    text-align: center; }
+  .marginTopMobile {
+    margin-top: 40px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-title {
+    padding: 0; }
+  .cardMargin {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    justify-content: center; }
+  .card-text {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: justify;
+    margin: 0; }
+  .btnTexto {
+    margin: 0; }
+  .marginSection {
+    margin-top: 90px; }
+  .centrarImg {
+    text-align: center; }
+  .marginTopMobile {
+    margin-top: 0px; }
+  .marginTopTablet {
+    margin-top: 20px; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .card-title {
+    padding: 0; }
+  .cardMargin {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    justify-content: center; }
+  .card-text {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: justify;
+    margin: 0; }
+  .btnTexto {
+    margin-top: 25px;
+    margin-right: 0px; }
+  .marginSection {
+    margin-top: 90px; }
+  .centrarImg {
+    text-align: center; }
+  .marginTopMobile {
+    margin-top: 0px; }
+  .marginTopTablet {
+    margin-top: 20px; } }
+
 /************* SOBRE ANDY ***************/
 #tituloSobreMi {
-  margin: 10px; }
+  margin: 10px;
+  text-align: left; }
 
 .imagenMenor {
-  margin-top: auto;
-  padding-right: 10px;
-  align-items: center; }
+  margin: auto; }
 
 .imgSobreMi {
-  margin: 5px 0px; }
+  margin: 5px; }
 
-.parrafosSobreMi p {
-  font-size: 16.7px; }
-
-.parrafosSobreMi a {
-  font-size: 16.7px; }
+.parrafosSobreMi {
+  padding: 0 0 0 5%; }
+  .parrafosSobreMi p {
+    font-size: 16.7px; }
+  .parrafosSobreMi a {
+    font-size: 16.7px; }
 
 #parrafosSobreMi h4 {
   color: midnightblue; }
 
 h3 {
   font-size: 1.5rem; }
+
+.contentCard {
+  justify-content: space-around;
+  text-align: center;
+  align-items: center; }
+
+@media only screen and (max-width: 767px) {
+  #parrafosSobreMi {
+    margin: 0; }
+  .parrafosSobreMi {
+    padding: 0; }
+  .imgSobreMi {
+    width: 90%; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  #parrafosSobreMi {
+    margin: 0; }
+  .parrafosSobreMi {
+    padding: 0; } }
 
 /************* BLOG ***************/
 #blog div {
@@ -203,7 +307,8 @@ h3 {
   margin-left: 20px; }
 
 #charlas h4 {
-  text-align: center; }
+  text-align: center;
+  font-size: 18px; }
 
 #charlas .text-muted {
   font-size: 13px; }
@@ -212,12 +317,29 @@ h3 {
   text-align: right;
   margin-right: 10px; }
 
+.columnaLista ul {
+  padding-left: 0; }
+
+@media only screen and (max-width: 1439px) {
+  .columnaLista ul {
+    padding-left: 25px; } }
+
+@media only screen and (max-width: 767px) {
+  .columnaLista ul {
+    padding-left: 25px; }
+  .marginTop {
+    margin-top: 20px; }
+  #charlas {
+    margin: 0; } }
+
 /************* CONTACTO ***************/
 #containerContacto {
   border-radius: 30px;
   border: 2px solid lightgray;
   padding: 30px;
   margin: auto; }
+  #containerContacto h3 {
+    font-size: 24px; }
   #containerContacto label {
     margin-bottom: 5px;
     margin-top: 10px;
