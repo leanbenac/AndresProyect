@@ -23,6 +23,9 @@
         text-align: center;
         font-size: 18px;
     }
+    p{
+        text-align: justify;
+    }
     .text-muted{
         font-size: 13px;
     }
@@ -49,6 +52,7 @@
     }
     #charlas{
         margin:0;
+        
     }
 }
 @media only screen and (max-width: 480px){

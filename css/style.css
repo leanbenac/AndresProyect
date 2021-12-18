@@ -57,7 +57,7 @@ header .nav-link {
   font-size: 25px; }
 
 header .nav-link:hover {
-  color: gray !important; }
+  color: #b9dcdc !important; }
 
 header .nav-item {
   padding: 0px 20px; }
@@ -260,7 +260,12 @@ footer {
     font-size: 16.7px; }
 
 #parrafosSobreMi h4 {
-  color: midnightblue; }
+  color: midnightblue;
+  margin: 10px; }
+
+#parrafosSobreMi p {
+  text-align: justify;
+  margin: 10px; }
 
 h3 {
   font-size: 1.5rem; }
@@ -327,6 +332,9 @@ h3 {
 #charlas h4 {
   text-align: center;
   font-size: 18px; }
+
+#charlas p {
+  text-align: justify; }
 
 #charlas .text-muted {
   font-size: 13px; }
