@@ -11,6 +11,9 @@ html {
   margin-top: 10px;
   margin-bottom: 40px; }
 
+.italicFont {
+  font-style: italic; }
+
 .paddingLeft {
   padding-left: 50px; }
 
@@ -23,6 +26,9 @@ html {
 .tituloSeccion {
   text-align: left;
   margin-left: 20px; }
+
+.marginDivBtn {
+  margin-top: 20px; }
 
 .colorPrimario {
   color: midnightblue; }
@@ -178,7 +184,9 @@ footer {
   .centrarImg {
     text-align: center; }
   .marginTopMobile {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  #containerContacto h3 {
+    font-size: 1.4rem !important; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .card-title {
@@ -203,6 +211,10 @@ footer {
     margin-top: 0px; }
   .marginTopTablet {
     margin-top: 20px; } }
+
+@media only screen and (max-width: 990px) {
+  .nav-link {
+    font-size: 1rem !important; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .card-title {
