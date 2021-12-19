@@ -134,6 +134,9 @@
     .nav-link{
         font-size: 1rem!important;
     }
+    nav .container-fluid{
+        width: 100%!important;
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px){
     .card-title{

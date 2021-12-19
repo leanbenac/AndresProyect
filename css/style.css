@@ -3,6 +3,14 @@ html {
   width: 100%;
   height: 100%; }
 
+body {
+  width: 100%;
+  height: 100%; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
 .marginSection {
   margin-top: 100px;
   margin-bottom: 40px; }
@@ -215,7 +223,9 @@ footer {
 
 @media only screen and (max-width: 990px) {
   .nav-link {
-    font-size: 1rem !important; } }
+    font-size: 1rem !important; }
+  nav .container-fluid {
+    width: 100% !important; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .card-title {
@@ -295,6 +305,9 @@ h3 {
 #blog div {
   justify-content: center; }
 
+#blog .card-text {
+  padding: 15px 0px; }
+
 .alignRightFecha {
   text-align: right;
   margin-right: 10px;
@@ -314,6 +327,9 @@ h3 {
 
 /************* SERVICIOS ***************/
 .tituloServicios {
+  margin: 15px 0px; }
+
+.tituloServicios2 {
   margin: 15px 15px 25px 15px; }
 
 .imagenServicios {

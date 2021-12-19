@@ -1,6 +1,11 @@
 /************* BLOG ***************/
-#blog div{
-    justify-content: center;
+#blog {
+    div{
+        justify-content: center;
+    }
+    .card-text{
+        padding: 15px 0px;
+    }
 }
 .alignRightFecha{
     text-align: right;
