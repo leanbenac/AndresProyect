@@ -57,7 +57,7 @@ header .nav-link {
   font-size: 25px; }
 
 header .nav-link:hover {
-  color: #b9dcdc !important; }
+  color: #ffa947 !important; }
 
 header .nav-item {
   padding: 0px 20px; }
@@ -106,7 +106,7 @@ footer {
 /************* INICIO ***************/
 /* CARDS */
 .cardMargin {
-  width: 85%;
+  width: 91%;
   margin: 5% 3% 3% 5%;
   padding: 10px; }
 
@@ -245,7 +245,8 @@ footer {
 /************* SOBRE ANDY ***************/
 #tituloSobreMi {
   margin: 10px;
-  text-align: left; }
+  text-align: left;
+  padding-left: 0; }
 
 .imagenMenor {
   margin: auto; }
@@ -303,7 +304,7 @@ h3 {
   text-align: center; }
   .blogImg img {
     margin-top: 10px;
-    width: 60%; }
+    width: 110%; }
 
 .blogCard {
   text-align: center; }
