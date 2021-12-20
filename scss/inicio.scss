@@ -70,13 +70,16 @@
     .sinPadding{
         padding: 0;
     }
+    .card{
+        width: 16rem!important;
+    }
     .cardMargin{
         width: 100%;
         margin: 0;
         padding: 0px;
         justify-content: center;
     }
-     .card-text{
+    .card-text{
        padding-left: 1px;
        padding-right: 1px;
        text-align: justify;
@@ -98,6 +101,29 @@
        font-size: 1.4rem!important;
    }
 }
+@media only screen and (max-width: 767px){
+    .sinPadding{
+        padding: 0;
+    }
+    .card-text{
+        padding-left: 1px;
+        padding-right: 1px;
+        text-align: justify;
+    }
+    .cardMargin{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        justify-content: center;
+    }
+    .centrarImg{
+        text-align: center;
+    }
+    .btnTexto{
+        margin-right: 0;
+        margin-top:10px;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     .card-title{
         padding: 0;
@@ -115,8 +141,9 @@
        margin:0;
    }
    .btnTexto{
-       margin: 0;
-   }
+    margin-right: 0;
+    margin-top: 10px;
+}
    .marginSection{
        margin-top: 90px;
    }
@@ -137,6 +164,9 @@
     }
     nav .container-fluid{
         width: 100%!important;
+    }
+    .sinPaddingMobile{
+        padding: 0px;
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px){
