@@ -178,7 +178,7 @@ footer {
     font-size: 1.2rem; }
   .sinPadding {
     padding: 0; }
-  .card {
+  .cardInicio {
     width: 16rem !important; }
   .cardMargin {
     width: 100%;
@@ -199,6 +199,10 @@ footer {
     margin-top: 40px; }
   #containerContacto h3 {
     font-size: 1.4rem !important; } }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .cardInicio {
+    margin-bottom: 20px; } }
 
 @media only screen and (max-width: 767px) {
   .sinPadding {
